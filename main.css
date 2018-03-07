@@ -43,13 +43,42 @@ header {
 	overflow-x: visible;
 	transition: all 500ms linear;
 	border-left: 5px solid black;
-	border-bottom-left-radius: 50px;
-	border-top-left-radius: 50px;
 	color: black;
 }
 
 #situation.active {
 	margin-left: 80%;
+}
+
+#landing {
+	background-image: url(landing.png);
+	height: 100vh;
+	background-size: cover;
+	margin-left: 15%;
+	margin-right: 0%;
+	padding: 10px 25px;
+	padding-top: 5px;
+	color: white;
+	font-size: 200%;
+	text-align: center;
+	transition: all 500ms linear;
+	border-bottom: 5px solid black;
+}
+
+#landing.active {
+	margin-right: 15%;
+}
+
+#landingtext {
+	position: absolute;
+	top: 50%;
+	left: 60%;
+	transform: translate(-50%, -50%);
+	transition: all 500ms linear;
+}
+
+#landingtext.active {
+	left: 50%;
 }
 
 #main {
@@ -94,6 +123,10 @@ header {
 #nav {
 	font-size: 75%;
 	text-decoration: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .navlink:hover {
@@ -115,4 +148,8 @@ header {
 	font-size: 150%;
 	padding-bottom: 5px;
 	border-bottom: 2px dotted black;
+}
+
+.subheading {
+	font-size: 1.75em;
 }

@@ -12,5 +12,7 @@ $(document).ready(function() {
 
 function toggleSituation() {
 	document.getElementById("situation").classList.toggle('active');
+	document.getElementById("landing").classList.toggle('active');
+	document.getElementById("landingtext").classList.toggle('active');
 	document.getElementById("main").classList.toggle('active');
 }
