@@ -48,7 +48,8 @@ function initMap() {
 	var map = new google.maps.Map(document.getElementById("map"), {
 		zoom: 18,
 		center: center,
-		mapTypeId: 'satellite'
+		mapTypeId: 'hybrid',
+		disableDefaultUI: true,
 	});
 
 	var causeText = '<h3 class="maptext">The stoplight where it began</h3>';
