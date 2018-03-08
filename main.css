@@ -3,7 +3,6 @@
 * {
 	margin: 0;
 	padding: 0;
-    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -14,6 +13,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	background-color: #F7F8F8;
 	color: #5C585A;
+	overflow-x: hidden;
 }
 
 #header {
